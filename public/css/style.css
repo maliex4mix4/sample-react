@@ -84,9 +84,10 @@ hr {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
+  align-items: center;
 	font-size: 15px;
 	font-weight: 400;
-	padding: 8px 2px;
+	padding: 0.2vw 0.08vw;
 	border-radius: 0;
 	margin: 9px 20px 0 20px;
 }

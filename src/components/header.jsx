@@ -14,7 +14,7 @@ export class Header extends Component {
                         </p>
 
                         <div className="down">
-                            <a>
+                            <a href="">
                                 <i className="fa fa-android txt-green" aria-hidden="true"></i>
                                 Play Store
                             </a>
