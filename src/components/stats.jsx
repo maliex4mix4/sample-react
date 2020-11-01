@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Bar } from 'react-chartjs-2';
 
 export class Stats extends Component {
   render() {
@@ -7,7 +8,12 @@ export class Stats extends Component {
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-md-6"> 
-              Chart
+              <Bar
+                data={this.props.chartData}
+                width={100}
+                height={50}
+                options={{ maintainAspectRatio: false }}
+              />
             </div>
             <div className="col-xs-12 col-md-6">
               {this.props.data

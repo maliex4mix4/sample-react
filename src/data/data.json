@@ -81,6 +81,15 @@
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
+    "Stats": {
+      "chartData": {
+
+      },
+      "data": [
+        "",
+        ""
+      ]
+    }
     "Features": [{
             "icon": "fa fa-comments-o",
             "title": "Giudelines",
