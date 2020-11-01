@@ -19,16 +19,13 @@
     "About": {
         "paragraph": "We are a healthcare solutions company based in Nigeria. We remain committed towards contributing to Nigeria’s cause of achieving the targets of Sustainable Development Goal 3: Good health and well-being by providing healthcare professionals with expanded access to quality healthcare point-of-reference resources and guidance to facilitate infection diagnosis, treatment and control.",
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+            "Improve clinical outcome",
+            "Promotes rational use of Antimicrobials",
+            "Reduce treatment cost to patient"
         ],
         "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
+            "Limits spread of Antimicrobial resistance",
+            "Reduce Antimicrobial consumption"
         ]
     },
     "Services": [{
@@ -83,9 +80,9 @@
             "text": "general and specific location antibiogram data."
         },
         {
-            "icon": "fa fa-capsules",
-            "title": "Efficacy",
-            "text": "Automatic Anti-Microbial efficacy."
+            "icon": "fa fa-facebook",
+            "title": "Efficacy Rankings",
+            "text": "Automatic Sample based Antibiotics efficacy ranking."
         },
         {
             "icon": "fa fa-gear",
