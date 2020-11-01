@@ -40,10 +40,10 @@ export class App extends Component {
         <Reach data=
         {this.state.landingPageData.Reach} />
         <Services data={this.state.landingPageData.Services} />
-        <Testimonials data={this.state.landingPageData.Testimonials} />
-        <Team data={this.state.landingPageData.Team} />
         <Clients data=
         {this.state.landingPageData.Clients} />
+        <Testimonials data={this.state.landingPageData.Testimonials} />
+        <Team data={this.state.landingPageData.Team} />
         <Contact data={this.state.landingPageData.Contact} />
       </div>
     )

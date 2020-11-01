@@ -102,6 +102,13 @@ hr {
 	content: "";
 	transition: width 0.2s;
 }
+.bg-white span{
+  color: #008037;
+  font-size: 6em;
+}
+.bg-white p{
+  font-size: 1.6em !important;
+}
 #menu.navbar-default .navbar-nav > li > a:hover:after {
 	width: 100%;
 }
@@ -536,6 +543,38 @@ color: #777;
 	color: #008037;
 }
 #footer a:hover {
+	border-bottom: 2px solid #008037;
+}
+
+/* Reach Section*/
+#reach {
+	background: #f6f6f6;
+	padding: 30px 0;
+}
+#reach p {
+	color: #888;
+	font-size: 14px;
+}
+#reach a {
+	color: #008037;
+}
+#reach a:hover {
+	border-bottom: 2px solid #008037;
+}
+
+/* Reach Section*/
+#clients {
+	background: #ffffff;
+	padding: 30px 0;
+}
+#clients p {
+	color: #888;
+	font-size: 14px;
+}
+#clients a {
+	color: #008037;
+}
+#clients a:hover {
 	border-bottom: 2px solid #008037;
 }
 

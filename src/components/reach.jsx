@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import CountUp from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
 
 export class Reach extends Component {
   render() {
@@ -9,16 +11,38 @@ export class Reach extends Component {
             <h2>Our Reach</h2>
           </div>
           <div className="row">
-            {this.props.data
-              ? this.props.data.map((d,i) => (
-                  <div  key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
-                    {" "}
-                    <i className={d.icon}></i>
-                    <h3>{d.title}</h3>
-                    <p>{d.text}</p>
-                  </div>
-                ))
-              : "Loading..."}
+            <div className="col-sm-12 col-md-4 container bg-white shadow">
+               
+              <CountUp end={100} redraw={true}>
+                  {({ countUpRef, start }) => (
+                      <VisibilitySensor onChange={start} delayedCall>
+                          <span ref={countUpRef} />
+                      </VisibilitySensor>
+                  )}
+              </CountUp>
+                <p>Downloads</p>
+            </div>
+            <div className="col-sm-12 col-md-4 container bg-white shadow">
+                <CountUp end={20} redraw={true}>
+                  {({ countUpRef, start }) => (
+                      <VisibilitySensor onChange={start} delayedCall>
+                          <span ref={countUpRef} />
+                      </VisibilitySensor>
+                  )}
+                </CountUp>
+                <p>Hospitals Served</p>
+            </div>
+
+            <div className="col-sm-12 col-md-4 container bg-white shadow">
+                <CountUp end={20} redraw={true}>
+                  {({ countUpRef, start }) => (
+                      <VisibilitySensor onChange={start} delayedCall>
+                          <span ref={countUpRef} />
+                      </VisibilitySensor>
+                  )}
+                </CountUp>
+                <p>Community Phamarcies</p>
+            </div>
           </div>
         </div>
       </div>
