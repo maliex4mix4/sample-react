@@ -10,14 +10,17 @@ import Team from './components/Team';
 import Contact from './components/contact';
 import JsonData from './data/data.json';
 import Stats from './components/stats';
-import StatsData from './data/data/stat.json';
+import StatsData from './data/stat.json';
 
 export class App extends Component {
   state = {
     landingPageData: {},
   }
   getlandingPageData() {
-    this.setState({landingPageData : JsonData})
+    this.setState({
+      landingPageData : JsonData,
+      statData: StatsData
+    })
   }
 
   componentDidMount() {
@@ -29,8 +32,8 @@ export class App extends Component {
       <div>
         <Navigation />
         <Header data={this.state.landingPageData.Header} />
+        <Stats />
         <Features data={this.state.landingPageData.Features} />
-        <Stats data={this.state.landingPageData.stats.data} />
         <About data={this.state.landingPageData.About} />
         <Services data={this.state.landingPageData.Services} />
         <Testimonials data={this.state.landingPageData.Testimonials} />
