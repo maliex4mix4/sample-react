@@ -34,38 +34,21 @@
             "icon": "fa fa-cloud-download",
             "name": "Lorem ipsum dolor",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         }
-
-
     ],
     "Testimonials": [{
             "img": "img/testimonials/01.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "text": "\"MicrobicPro help solved critical issues in dangote cement.\"",
             "name": "Alko Dangote"
         },
         {
             "img": "img/testimonials/02.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "text": "\"LWhat ever.\"",
             "name": "Mike Adenuga"
         },
         {
             "img": "img/testimonials/03.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus.\"",
             "name": "Mike Tyson"
         }
     ],
@@ -78,10 +61,16 @@
             "img": "img/team/02.jpg",
             "name": "Abubakar Lawal",
             "job": "CTO"
-        }, {
+        },
+        {
             "img": "img/team/03.jpg",
             "name": "I dont Know",
             "job": "Content Developer"
+        },
+        {
+            "img": "img/team/03.jpg",
+            "name": "I dont Know",
+            "job": "UI / UX"
         }
     ],
     "Contact": {
@@ -94,23 +83,23 @@
     },
     "Features": [{
             "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Giudelines",
+            "text": "National infectious disease treatment guidelines."
         },
         {
             "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Antibiograms",
+            "text": "general and specific location antibiogram data."
         },
         {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "fa fa-marker",
+            "title": "Efficacy",
+            "text": "Automatic Anti-Microbial efficacy."
         },
         {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "fa fa-gear",
+            "title": "Tools",
+            "text": "All other MicrobicPro tools."
         }
     ]
 }
