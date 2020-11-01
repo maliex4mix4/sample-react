@@ -27,7 +27,6 @@ export class Stats extends Component {
             </div>
           </div>
         </div>
-      </div>
     )
   }
 }
