@@ -2,6 +2,12 @@ import React, { Component } from "react";
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 
+const data = {
+  Down: 1000,
+  Hosp: 67,
+  Comm: 49
+}
+
 export class Reach extends Component {
   render() {
     return (
@@ -13,7 +19,7 @@ export class Reach extends Component {
           <div className="row">
             <div className="col-sm-12 col-md-4 container bg-white shadow">
                
-              <CountUp end={100} redraw={true}>
+              <CountUp end={data.Down} redraw={true}>
                   {({ countUpRef, start }) => (
                       <VisibilitySensor onChange={start} delayedCall>
                           <span ref={countUpRef} />
@@ -23,7 +29,7 @@ export class Reach extends Component {
                 <p>Downloads</p>
             </div>
             <div className="col-sm-12 col-md-4 container bg-white shadow">
-                <CountUp end={20} redraw={true}>
+                <CountUp end={data.Hosp} redraw={true}>
                   {({ countUpRef, start }) => (
                       <VisibilitySensor onChange={start} delayedCall>
                           <span ref={countUpRef} />
@@ -34,7 +40,7 @@ export class Reach extends Component {
             </div>
 
             <div className="col-sm-12 col-md-4 container bg-white shadow">
-                <CountUp end={20} redraw={true}>
+                <CountUp end={data.Comm} redraw={true}>
                   {({ countUpRef, start }) => (
                       <VisibilitySensor onChange={start} delayedCall>
                           <span ref={countUpRef} />

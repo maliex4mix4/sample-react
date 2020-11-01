@@ -38,7 +38,7 @@ export class App extends Component {
         <Features data={this.state.landingPageData.Features} />
         <About data={this.state.landingPageData.About} />
         <Reach data=
-        {this.state.landingPageData.Reach} />
+        {this.state.landingPageData.Reaches} />
         <Services data={this.state.landingPageData.Services} />
         <Clients data=
         {this.state.landingPageData.Clients} />

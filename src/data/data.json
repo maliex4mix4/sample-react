@@ -1,4 +1,15 @@
 {
+    "Clients": {
+      "clients": [
+        "image1",
+        "image2"
+      ]
+    },
+    "Reaches": {
+      "Down": 1000,
+      "Hosp": 86,
+      "Comm": 37
+    },
     "Header": {
 
         "title": "Promoting Rational Anti-Microbial Medicines Use",
@@ -39,17 +50,7 @@
     "Testimonials": [{
             "img": "img/testimonials/01.jpg",
             "text": "\"MicrobicPro help solved critical issues in dangote cement.\"",
-            "name": "Alko Dangote"
-        },
-        {
-            "img": "img/testimonials/02.jpg",
-            "text": "\"LWhat ever.\"",
-            "name": "Mike Adenuga"
-        },
-        {
-            "img": "img/testimonials/03.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus.\"",
-            "name": "Mike Tyson"
+            "name": "Wale Agbaje"
         }
     ],
     "Team": [{
@@ -59,18 +60,8 @@
         },
         {
             "img": "img/team/02.jpg",
-            "name": "Abubakar Lawal",
-            "job": "CTO"
-        },
-        {
-            "img": "img/team/03.jpg",
-            "name": "I dont Know",
-            "job": "Content Developer"
-        },
-        {
-            "img": "img/team/03.jpg",
-            "name": "I dont Know",
-            "job": "UI / UX"
+            "name": "Constance Edesiri",
+            "job": "Brand/Marketing Manager"
         }
     ],
     "Contact": {
@@ -82,17 +73,17 @@
         "youtube": "youtube.com"
     },
     "Features": [{
-            "icon": "fa fa-comments-o",
+            "icon": "fa fa-list-alt",
             "title": "Giudelines",
             "text": "National infectious disease treatment guidelines."
         },
         {
-            "icon": "fa fa-bullhorn",
+            "icon": "fa fa-file-medical",
             "title": "Antibiograms",
             "text": "general and specific location antibiogram data."
         },
         {
-            "icon": "fa fa-marker",
+            "icon": "fa fa-capsules",
             "title": "Efficacy",
             "text": "Automatic Anti-Microbial efficacy."
         },
