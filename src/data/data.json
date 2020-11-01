@@ -75,12 +75,12 @@
             "text": "National infectious disease treatment guidelines."
         },
         {
-            "icon": "fa fa-file-medical",
+            "icon": "fa fa-drug",
             "title": "Antibiograms",
             "text": "general and specific location antibiogram data."
         },
         {
-            "icon": "fa fa-facebook",
+            "icon": "fa fa-battery",
             "title": "Efficacy Rankings",
             "text": "Automatic Sample based Antibiotics efficacy ranking."
         },
