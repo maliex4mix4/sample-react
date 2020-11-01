@@ -11,6 +11,8 @@ import Contact from './components/contact';
 import JsonData from './data/data.json';
 import Stats from './components/stats';
 import StatsData from './data/stat.json';
+import Reach from './components/reach';
+import Clients from './components/clients';
 
 export class App extends Component {
   state = {
@@ -35,9 +37,13 @@ export class App extends Component {
         <Stats />
         <Features data={this.state.landingPageData.Features} />
         <About data={this.state.landingPageData.About} />
+        <Reach data=
+        {this.state.landingPageData.Reach} />
         <Services data={this.state.landingPageData.Services} />
         <Testimonials data={this.state.landingPageData.Testimonials} />
         <Team data={this.state.landingPageData.Team} />
+        <Clients data=
+        {this.state.landingPageData.Clients} />
         <Contact data={this.state.landingPageData.Contact} />
       </div>
     )

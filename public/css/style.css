@@ -687,6 +687,13 @@ color: #777;
 	border-color: #13944d;
 }
 
+.p-3{
+  padding: 2vw !important;
+}
+.pt-5{
+  padding-top: 5vh !important;
+}
+
 @media (max-width: 768px) {
 #about img {
 	margin: 50px 0;

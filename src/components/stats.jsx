@@ -3,7 +3,7 @@ import { HorizontalBar } from 'react-chartjs-2';
 import ChrData from '../data/stat.json';
 
 const data = {
-  labels: ['present', '2025'],
+  labels: ['present', '2050'],
   datasets: [
     {
       label: 'Total Deaths From AMR worldwide',
@@ -28,15 +28,15 @@ export class Stats extends Component {
   
   render() {
     return (
-        <div id="stats">
-        <div className="container p-3 pt-5">
+        <div id="stats" className="p-3 pt-5">
+        <div className="container">
           <div className="row">
             <div className="col-xs-12 col-md-6"> 
               <HorizontalBar
                 data={data}
               />
             </div>
-            <div className="col-xs-12 col-md-6">
+            <div className="col-xs-12 col-md-6 p-3">
               {summary 
               ? summary.paragraphs.map((p) => (
                   <p>{p}</p>
