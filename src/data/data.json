@@ -54,12 +54,12 @@
         }
     ],
     "Team": [{
-            "img": "img/team/01.jpg",
+            "img": "img/ayo.jpg",
             "name": "Hassan Diyaolu",
             "job": "CEO/Co-founder"
         },
         {
-            "img": "img/team/02.jpg",
+            "img": "img/const.jpg",
             "name": "Constance Edesiri",
             "job": "Brand/Marketing Manager"
         }
