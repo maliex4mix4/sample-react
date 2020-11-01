@@ -9,7 +9,7 @@ export class Stats extends Component {
           <div className="row">
             <div className="col-xs-12 col-md-6"> 
               <Bar
-                data={this.props.chartData}
+                data={this.props.chart}
                 width={100}
                 height={50}
                 options={{ maintainAspectRatio: false }}

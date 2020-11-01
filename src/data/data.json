@@ -81,21 +81,6 @@
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
-    "Stats": {
-      "chartData": {
-        "datasets": [{
-            "barPercentage": 0.5,
-            "barThickness": 6,
-            "maxBarThickness": 8,
-            "minBarLength": 2,
-            "data": [10, 20, 30, 40, 50, 60, 70]
-        }]
-      },
-      "data": [
-        "Anti-Microbial Resistance causes over 700, 000 deaths globally. This is projected to reach at least 10 million deaths by 2050.",
-        "Infectious diseases is the leading cause of death in Nigeria (66%)."
-      ]
-    },
     "Features": [{
             "icon": "fa fa-comments-o",
             "title": "Giudelines",
