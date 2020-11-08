@@ -3,9 +3,9 @@ import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 
 const data = {
-  Down: 1000,
-  Hosp: 67,
-  Comm: 49
+  Down: 100,
+  Hosp: 2,
+  Comm: 10
 }
 
 export class Reach extends Component {
@@ -22,10 +22,10 @@ export class Reach extends Component {
               <CountUp end={data.Down} redraw={true}>
                   {({ countUpRef, start }) => (
                       <VisibilitySensor onChange={start} delayedCall>
-                          <span ref={countUpRef} />
+                          <span ref={countUpRef}></span>
                       </VisibilitySensor>
                   )}
-              </CountUp>
+              </CountUp><span>{ " "} +</span>
                 <p>Downloads</p>
             </div>
             <div className="col-sm-12 col-md-4 container bg-white shadow">
@@ -43,10 +43,10 @@ export class Reach extends Component {
                 <CountUp end={data.Comm} redraw={true}>
                   {({ countUpRef, start }) => (
                       <VisibilitySensor onChange={start} delayedCall>
-                          <span ref={countUpRef} />
+                          <span ref={countUpRef}></span>
                       </VisibilitySensor>
                   )}
-                </CountUp>
+                </CountUp><span>{ " "} +</span>
                 <p>Community Phamarcies</p>
             </div>
           </div>

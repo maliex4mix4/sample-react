@@ -11,9 +11,9 @@ export class Clients extends Component {
           </div>
           <div className="row">
             {this.props.data
-              ? this.props.data.clients.map((c) => (
+              ? this.props.data.map((c) => (
                 <div className="col-sm-12 col-md-2">
-                  <img src={c.img} alt="..." className="client-img" />
+                  <img src={c} alt="..." className="client-img" width="150" height="100"/>
                 </div>
               ))
               : "loading"

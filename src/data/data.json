@@ -1,10 +1,9 @@
 {
-    "Clients": {
-      "clients": [
-        "image1",
-        "image2"
-      ]
-    },
+    "Clients": [
+        "images/FF.png",
+        "images/orange.png",
+        "images/fmc.png"
+    ],
     "Reaches": {
       "Down": 1000,
       "Hosp": 86,
@@ -75,12 +74,12 @@
             "text": "National infectious disease treatment guidelines."
         },
         {
-            "icon": "fa fa-drug",
+            "icon": "fa fa-heartbeat",
             "title": "Antibiograms",
             "text": "general and specific location antibiogram data."
         },
         {
-            "icon": "fa fa-battery",
+            "icon": "fa fa-hospital-o",
             "title": "Efficacy Rankings",
             "text": "Automatic sample-based Antibiotics efficacy ranking."
         },

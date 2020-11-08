@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { HorizontalBar } from 'react-chartjs-2';
-import ChrData from '../data/stat.json';
+// import ChrData from '../data/stat.json';
 
 const data = {
   labels: ['present', '2050'],
