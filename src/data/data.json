@@ -21,7 +21,7 @@
         "Why": [
             "Improve clinical outcome",
             "Promotes rational use of Antimicrobials",
-            "Reduce treatment cost to patient"
+            "Reduce the treatment cost of patients"
         ],
         "Why2": [
             "Limits spread of Antimicrobial resistance",
@@ -46,7 +46,7 @@
     ],
     "Testimonials": [{
             "img": "img/waje.jpg",
-            "text": "\"MicrobicPro simplifies the tasks of initiating emperical therapy by providing easy access to current guidelines and antibiograms.\"",
+            "text": "\"MicrobicPro simplifies the tasks of initiating empirical therapy by providing easy access to current guidelines and antibiograms.\"",
             "name": "Wale Agbaje"
         }
     ],
@@ -82,7 +82,7 @@
         {
             "icon": "fa fa-battery",
             "title": "Efficacy Rankings",
-            "text": "Automatic Sample based Antibiotics efficacy ranking."
+            "text": "Automatic sample-based Antibiotics efficacy ranking."
         },
         {
             "icon": "fa fa-gear",
