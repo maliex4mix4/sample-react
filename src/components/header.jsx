@@ -26,7 +26,7 @@ export class Header extends Component {
                         <h4 className="txt-uniq">Download Now on</h4>
                     </div>
                     <div className="col-sm-4 box-img text-center">
-                        <img src="images/intro-screen2.png" alt="" />
+                        <img src="images/intro-screen.png" alt="" />
                     </div>
                 </div>
             </div>
