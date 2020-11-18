@@ -14,7 +14,30 @@ import StatsData from './data/stat.json';
 import Reach from './components/reach';
 import Clients from './components/clients';
 
+import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
+import BlogPosts from './components/blogs';
+import NotFoundPage from './components/NotFoundPage.jsx';
+
 export class App extends Component {
+
+  render() {
+    return (
+      <main>
+        <Router>
+          <Switch>
+              <Route path="/" component ={Home} exact />
+              <Route path="/blog" component = {BlogPosts} />
+              <Route path="/404" component={NotFoundPage} />
+              <Redirect to="/404" />
+          </Switch>
+        </Router>
+      </main>
+    )
+  }
+}
+
+class Home extends Component{
+
   state = {
     landingPageData: {},
   }
@@ -29,7 +52,7 @@ export class App extends Component {
     this.getlandingPageData();
   }
 
-  render() {
+  render (){
     return (
       <div>
         <Navigation />
@@ -37,16 +60,16 @@ export class App extends Component {
         <Stats />
         <Features data={this.state.landingPageData.Features} />
         <About data={this.state.landingPageData.About} />
-        <Reach data=
-        {this.state.landingPageData.Reaches} />
+        <Reach data={this.state.landingPageData.Reaches} />
         <Clients data=
         {this.state.landingPageData.Clients} />
         <Testimonials data={this.state.landingPageData.Testimonials} />
         <Team data={this.state.landingPageData.Team} />
         <Contact data={this.state.landingPageData.Contact} />
       </div>
-    )
+  );
   }
 }
+
 
 export default App;

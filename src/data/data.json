@@ -1,13 +1,14 @@
 {
     "Clients": [
         "images/FF.png",
-        "images/orange.png",
-        "images/fmc.png"
+        "images/orange.png"
     ],
     "Reaches": {
-      "Down": 1000,
-      "Hosp": 86,
-      "Comm": 37
+
+        "down": 1000,
+        "hosp": 86,
+        "comm": 37
+
     },
     "Header": {
 
@@ -70,7 +71,7 @@
     },
     "Features": [{
             "icon": "fa fa-list-alt",
-            "title": "Giudelines",
+            "title": "Guideline",
             "text": "National infectious disease treatment guidelines."
         },
         {

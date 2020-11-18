@@ -1,0 +1,17 @@
+
+img{
+    height: 85vh;
+    width: 100%;
+    justify-content: center;
+    padding: 1vh auto;
+}
+
+h4{
+    align-items: center;
+    justify-content: center;
+    padding: 1vw;
+}
+
+a{
+    color: blue;
+}
