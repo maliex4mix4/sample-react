@@ -16,6 +16,8 @@ import Clients from './components/clients';
 
 import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
 import BlogPosts from './components/blogs';
+import SinglePost from "./components/singlepost";
+// 404 page
 import NotFoundPage from './components/NotFoundPage.jsx';
 
 export class App extends Component {
@@ -26,7 +28,8 @@ export class App extends Component {
         <Router>
           <Switch>
               <Route path="/" component ={Home} exact />
-              <Route path="/blog" component = {BlogPosts} />
+              <Route path="/blogs" component = {BlogPosts} />
+              <Route path="/posts/:slug" component = {SinglePost} />
               <Route path="/404" component={NotFoundPage} />
               <Redirect to="/404" />
           </Switch>

@@ -14,7 +14,7 @@ export class Header extends Component {
                         </p>
 
                         <div className="down">
-                            <a href="">
+                            <a href="https://play.google.com/store/apps/details?id=com.altechtic.microbicpro">
                                 <i className="fa fa-android txt-green" aria-hidden="true"></i>
                                 Play Store
                             </a>
