@@ -70,7 +70,7 @@ export default function SinglePost() {
         
         </div> */}
         <div>
-            <Link to="/">Homepage</Link> | <Link to="/blogs">Blog Posts</Link>
+            <Link to="/">Homepage</Link> | <Link to="/blog">Blog Posts</Link>
         </div>
     </div>
   );

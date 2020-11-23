@@ -26,10 +26,11 @@ export class App extends Component {
     return (
       <main>
         <Router>
+        <Navigation />
           <Switch>
               <Route path="/" component ={Home} exact />
-              <Route path="/blogs" component = {BlogPosts} />
-              <Route path="/posts/:slug" component = {SinglePost} />
+              <Route path="/blog" exact component = {BlogPosts} />
+              <Route path="/blog/:slug" component = {SinglePost} />
               <Route path="/404" component={NotFoundPage} />
               <Redirect to="/404" />
           </Switch>
@@ -58,7 +59,6 @@ class Home extends Component{
   render (){
     return (
       <div>
-        <Navigation />
         <Header data={this.state.landingPageData.Header} />
         <Stats />
         <Features data={this.state.landingPageData.Features} />

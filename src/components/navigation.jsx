@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from 'react-router-dom';
 
 export class Navigation extends Component {
   state = {
@@ -53,34 +54,19 @@ export class Navigation extends Component {
           >
             <ul className="nav navbar-nav navbar-right">
               <li>
-                <a href="#features" className="page-scroll">
-                  Features
-                </a>
+                <Link to="/" className="page-scroll">
+                  Products
+                </Link>
               </li>
               <li>
-                <a href="#about" className="page-scroll">
-                  About
-                </a>
+                <Link to="/blog" className="page-scroll">
+                  Blog
+                </Link>
               </li>
               <li>
-                <a href="#team" className="page-scroll">
-                  Team
-                </a>
-              </li>
-              <li>
-                <a href="#testimonials" className="page-scroll">
-                  Testimonials
-                </a>
-              </li>
-              <li>
-                <a href="#clients" className="page-scroll">
-                  Partners
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="page-scroll">
-                  Contact
-                </a>
+                <Link to="/" className="page-scroll">
+                  Stewardship
+                </Link>
               </li>
             </ul>
           </div>

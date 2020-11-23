@@ -38,7 +38,7 @@ export default function BlogPosts() {
                 <div className="card-body">
                   <h5 className="card-title">{post.title}</h5>
                   <p className="card-text">{console.log(post)}.</p>
-                  <Link to={"posts/" + post.slug.current} className="btn btn-primary">Read Full</Link>
+                  <Link to={"blog/" + post.slug.current} className="btn btn-primary">Read Full</Link>
                 </div>
               </div>
             </div>
