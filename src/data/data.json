@@ -59,6 +59,16 @@
             "img": "img/const.jpg",
             "name": "Constance Edesiri",
             "job": "Brand/Marketing Manager"
+        },
+        {
+            "img": "img/abula.jpg",
+            "name": "Abubakar Lawal",
+            "job": "CTO"
+        },
+        {
+            "img": "img/jonah.jpg",
+            "name": "Jonathan Ikokwu",
+            "job": "Medicines Infomation Specialist"
         }
     ],
     "Contact": {
